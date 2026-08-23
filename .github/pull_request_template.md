@@ -19,6 +19,6 @@
 
 - [ ] I have read the contributing guidelines in the README
 - [ ] `pnpm lint` passes locally
-- [ ] `pnpm exec tsc --noEmit` passes locally
+- [ ] `pnpm typecheck` passes locally
 - [ ] I have self-reviewed my code
 - [ ] Documentation has been updated if needed

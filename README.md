@@ -77,6 +77,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 | `pnpm start` | Serve the production build |
 | `pnpm lint` | Run Biome checks (lint + format) |
 | `pnpm format` | Auto-format files with Biome |
+| `pnpm typecheck` | Generate route types and run the TypeScript compiler |
 
 ## Project Structure
 
