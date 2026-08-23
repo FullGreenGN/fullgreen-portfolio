@@ -133,38 +133,38 @@ export async function Experiences() {
               </span>
             </Link>
           </div>
+        </div>
 
-          {/* Certifications */}
-          <div className="mt-16">
-            <p className="mb-6 font-mono text-xs uppercase tracking-[0.2em] text-zinc-500">
-              {t("certifications")}
-            </p>
-            <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-              {certifications.map((certification) => (
-                <a
-                  key={certification.id}
-                  href={certification.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="group flex items-center justify-between gap-4 rounded-2xl border border-black/[.08] bg-surface p-6 transition-colors hover:border-black/[.16] dark:border-white/[.08] dark:bg-zinc-900/60 dark:hover:border-white/[.16]"
+        {/* Certifications */}
+        <div className="mt-16">
+          <p className="mb-6 font-mono text-xs uppercase tracking-[0.2em] text-zinc-500">
+            {t("certifications")}
+          </p>
+          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            {certifications.map((certification) => (
+              <a
+                key={certification.id}
+                href={certification.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group flex items-center justify-between gap-4 rounded-2xl border border-black/[.08] bg-surface p-6 transition-colors hover:border-black/[.16] dark:border-white/[.08] dark:bg-zinc-900/60 dark:hover:border-white/[.16]"
+              >
+                <div>
+                  <p className="font-display font-bold text-foreground">
+                    {pick(certification.title)}
+                  </p>
+                  <p className="mt-1 text-sm text-zinc-500">
+                    {certification.organization} · {pick(certification.date)}
+                  </p>
+                </div>
+                <span
+                  aria-hidden="true"
+                  className="text-zinc-400 transition-transform duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5"
                 >
-                  <div>
-                    <p className="font-display font-bold text-foreground">
-                      {pick(certification.title)}
-                    </p>
-                    <p className="mt-1 text-sm text-zinc-500">
-                      {certification.organization} · {pick(certification.date)}
-                    </p>
-                  </div>
-                  <span
-                    aria-hidden="true"
-                    className="text-zinc-400 transition-transform duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5"
-                  >
-                    ↗
-                  </span>
-                </a>
-              ))}
-            </div>
+                  ↗
+                </span>
+              </a>
+            ))}
           </div>
         </div>
       </div>
