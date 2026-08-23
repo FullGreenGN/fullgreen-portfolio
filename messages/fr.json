@@ -37,7 +37,8 @@
     "overline": "Parcours professionnel",
     "title": "Expériences",
     "viewAll": "Voir toutes mes expériences et formations",
-    "experienceCount": "{count, plural, one {1 expérience} other {# expériences}}"
+    "experienceCount": "{count, plural, one {1 expérience} other {# expériences}}",
+    "certifications": "Certifications"
   },
   "LocaleSwitcher": {
     "label": "Langue"

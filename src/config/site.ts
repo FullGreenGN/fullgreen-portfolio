@@ -5,7 +5,7 @@ export const siteConfig = {
     fr: "Sysadmin & Développeur Full-Stack",
     en: "Sysadmin & Full-Stack Developer",
   },
-  locality: "Toulouse, France",
+  locality: "Perpignan, France",
   github: process.env.NEXT_PUBLIC_GITHUB_URL ?? "https://github.com",
   linkedin: process.env.NEXT_PUBLIC_LINKEDIN_URL ?? "https://www.linkedin.com",
   knowsAbout: [

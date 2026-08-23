@@ -196,12 +196,20 @@ export const educations: Education[] = [
 
 export const certifications: Certification[] = [
   {
+    id: "js-essentials-1",
+    title: { fr: "JavaScript Essentials 1", en: "JavaScript Essentials 1" },
+    organization: "Cisco Networking Academy",
+    date: { fr: "Août 2026", en: "August 2026" },
+    status: { fr: "Terminé", en: "Completed" },
+    link: "https://www.credly.com/badges/d272372c-8aae-4ce8-9b5a-89297111ac98/public_url",
+  },
+  {
     id: "netacad-basics",
     title: { fr: "Notions de base sur les réseaux", en: "Networking Basics" },
     organization: "Cisco Networking Academy",
     date: { fr: "Aout 2026", en: "Aout 2026" },
-    status: { fr: "En cours", en: "In progress" },
-    link: "https://www.netacad.com/", // Ou le lien vers ton badge Credly si tu en as un
+    status: { fr: "Terminé", en: "Completed" },
+    link: "https://www.credly.com/badges/c4044313-969c-4009-b4d7-d969a681260a/public_url",
   },
   {
     id: "secnum",

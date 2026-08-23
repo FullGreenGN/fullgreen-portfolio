@@ -37,7 +37,8 @@
     "overline": "Professional journey",
     "title": "Experience",
     "viewAll": "View all my experience and education",
-    "experienceCount": "{count, plural, one {1 experience} other {# experiences}}"
+    "experienceCount": "{count, plural, one {1 experience} other {# experiences}}",
+    "certifications": "Certifications"
   },
   "LocaleSwitcher": {
     "label": "Language"
