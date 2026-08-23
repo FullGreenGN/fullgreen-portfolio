@@ -1,0 +1,48 @@
+{
+  "Meta": {
+    "title": "Jean-Luc Oudart-Sintes - Portfolio",
+    "description": "Développeur web — projets, compétences et contact.",
+    "keywords": "portfolio, Jean-Luc Oudart-Sintes, PolarisDEV, sysadmin, cybersécurité, développeur full-stack, Toulouse, homelab, Java, Spring Boot, React, Next.js"
+  },
+  "Header": {
+    "home": "Accueil",
+    "experiences": "Expériences",
+    "projects": "Projets",
+    "contact": "Contact",
+    "cv": "Mon CV",
+    "navigation": "Navigation principale",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu"
+  },
+  "Hero": {
+    "marquee": "SYSADMIN • CYBERSÉCURITÉ • FULL-STACK • TOULOUSE, FRANCE • ESN 81 •",
+    "ctaProfile": "Découvrir mon profil",
+    "ctaProjects": "Mes projets"
+  },
+  "About": {
+    "label": "À propos",
+    "facts": [
+      { "title": "20 ans", "subtitle": "Toulouse, France" },
+      { "title": "PolarisDEV", "subtitle": "Auto-entrepreneur" },
+      { "title": "Étudiant IT", "subtitle": "Sysadmin & Cybersécurité" }
+    ],
+    "intro": "Je m'appelle Jean-Luc, j'ai 20 ans et je suis passionné par l'infrastructure IT, la cybersécurité et le développement logiciel. J'évolue aussi bien sur l'administration système que sur la création d'applications web modernes.",
+    "details": "En parallèle de mon Bachelor, je propose mes services en tant qu'auto-entrepreneur sous le nom de PolarisDEV. J'apprends énormément par la pratique, notamment en administrant mon propre homelab. En dehors de l'informatique, je me passionne pour l'impression 3D, et pour la force athlétique.",
+    "actions": [
+      { "label": "Parcours professionnel", "href": "#experiences" },
+      { "label": "Formation", "href": "#experiences" }
+    ]
+  },
+  "Experiences": {
+    "overline": "Parcours professionnel",
+    "title": "Expériences",
+    "viewAll": "Voir toutes mes expériences et formations",
+    "experienceCount": "{count, plural, one {1 expérience} other {# expériences}}"
+  },
+  "LocaleSwitcher": {
+    "label": "Langue"
+  },
+  "ThemeToggle": {
+    "label": "Changer de thème"
+  }
+}

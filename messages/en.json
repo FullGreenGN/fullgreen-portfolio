@@ -1,0 +1,48 @@
+{
+  "Meta": {
+    "title": "Jean-Luc Oudart-Sintes - Portfolio",
+    "description": "Web developer — projects, skills and contact.",
+    "keywords": "portfolio, Jean-Luc Oudart-Sintes, PolarisDEV, sysadmin, cybersecurity, full-stack developer, Toulouse, homelab, Java, Spring Boot, React, Next.js"
+  },
+  "Header": {
+    "home": "Home",
+    "experiences": "Experience",
+    "projects": "Projects",
+    "contact": "Contact",
+    "cv": "My CV",
+    "navigation": "Main navigation",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "Hero": {
+    "marquee": "SYSADMIN • CYBERSECURITY • FULL-STACK • TOULOUSE, FRANCE • ESN 81 •",
+    "ctaProfile": "Discover my profile",
+    "ctaProjects": "My projects"
+  },
+  "About": {
+    "label": "About",
+    "facts": [
+      { "title": "20 years old", "subtitle": "Toulouse, France" },
+      { "title": "PolarisDEV", "subtitle": "Freelancer" },
+      { "title": "IT Student", "subtitle": "Sysadmin & Cybersecurity" }
+    ],
+    "intro": "My name is Jean-Luc, I'm 20 years old and I'm passionate about IT infrastructure, cybersecurity and software development. I work equally on system administration and on building modern web applications.",
+    "details": "Alongside my Bachelor's degree, I offer my services as a freelancer under the name PolarisDEV. I learn a lot through hands-on practice, especially by running my own homelab. Outside of IT, I'm passionate about 3D printing and powerlifting.",
+    "actions": [
+      { "label": "Professional background", "href": "#experiences" },
+      { "label": "Education", "href": "#experiences" }
+    ]
+  },
+  "Experiences": {
+    "overline": "Professional journey",
+    "title": "Experience",
+    "viewAll": "View all my experience and education",
+    "experienceCount": "{count, plural, one {1 experience} other {# experiences}}"
+  },
+  "LocaleSwitcher": {
+    "label": "Language"
+  },
+  "ThemeToggle": {
+    "label": "Toggle theme"
+  }
+}
